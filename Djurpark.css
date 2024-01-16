@@ -81,6 +81,26 @@ h1 > a{
     background-size: cover;
 }
 
+.Diegosite{
+    background-image: url(Shrub.jpg);
+    background-size: cover;
+}
+
+.Nanasite{
+    background-image: url(RainForest.png);
+    background-size: cover;
+}
+
+.Nemosite{
+    background-image: url(Lake.jpg);
+    background-size: cover;
+}
+
+.Pinkysite{
+    background-image: url(Coast.jpg);
+    background-size: cover;
+}
+
 .mainhem{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -108,7 +128,7 @@ section > .center{
 
 img{
     max-width: 100%;
-    height: 300px;
+    height:50svh;
 }
 
 footer ~ .center, p{
@@ -121,4 +141,20 @@ h2{
 
 h1, h2{
     text-align: center;
+}
+
+.Animaldesign > p, .Animaldesign > h2, .AnimalImage > h2, .AnimalImage > img{
+    border-style:solid;
+    border-width: 5px;
+    border-color:rgb(10, 127, 3, 0.6);
+    background-color: rgb(39, 160, 30, 0.6);
+}
+
+.AnimalImage{
+    justify-self: center;
+    display:grid;
+}
+
+section{
+    margin: 10px;
 }
