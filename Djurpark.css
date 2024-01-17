@@ -110,102 +110,102 @@ h1 > a{
 }
 
 .mainhem > section{
-    justify-self: center;
+    justify-self: center; /*ROBIN: Centrera horisontellt*/
 }
 
 section > .center{
     display: grid;
     background-color: rgb(10, 127, 3, 0.6);
-    padding: 5px;
+    padding: 5px; /*ROBIN: Padding på 5 pixlar*/
 }
 
 .center{
-    margin: 0px;
+    margin: 0px; /*ROBIN: Ingen margin*/
     text-align: center;
     grid-area: center;
 }
 
 img{
-    max-width: 100%;
-    height:50svh;
+    max-width: 100%; /*DIJAR: maximal bredd 100% av föräldrarelementet*/
+    height:50svh; /*DIJAR: höjd 50% av vyhöjden*/
 }
 
 footer ~ .center, p{
-    font-size: 2em;
+    font-size: 2em; /*DIJAR: textstorlek 200%*/
 }
 
 h2{
-    font-size: 3em;
+    font-size: 3em; /*DIJAR: textstorlek 300%*/
 }
 
 h1, h2, h3{
-    text-align: center;
+    text-align: center; /*DIJAR: centrera huvudrubriker*/
 }
 
 .Animaldesign > p, .Animaldesign > h2, .AnimalImage > h2, .AnimalImage > img{
-    border-style:solid;
-    border-width: 5px;
-    border-color:rgb(10, 127, 3, 0.6);
+    border-style:solid; /*ROBIN: Solid kant*/
+    border-width: 5px; /*ROBIN: Tjocklek 5 pixlar på kanten*/
+    border-color:rgb(10, 127, 3, 0.6); /*ROBIN: Färg på kant*/
     background-color: rgb(39, 160, 30, 0.6);
 }
 
 .AnimalImage{
-    justify-self: center;
+    justify-self: center; /*ROBIN: Centrera horisontellt*/
     display:grid;
 }
 
 section{
-    margin: 10px;
+    margin: 10px; /*ROBIN: Margin på 10 pixlar*/
 }
 
 #övrepriser{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    color:rgb(67, 76, 0)
+    display: flex; /*DENNIS: flexbox för layout*/
+    justify-content: center; /*DENNIS: centrerar innehållet horizontellt*/
+    align-items:center; /*DENNIS: centrerar innehållet vertikalt*/
+    color:rgb(67, 76, 0) 
 }
 
 #övrepriser div{
-    height: 30px;
-    width: 335px;
-    margin: 30px;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 30px;
+    height: 30px; /*DENNIS: höjd på 30 pixlar*/
+    width: 335px; /*DENNIS: bredd på 335 pixlar*/
+    margin: 30px; /*DENNIS: margin 30 pixlar*/
+    text-align: center; /*DENNIS: centrera text*/
+    border-radius: 15px; /*DENNIS: Runda hörn, 15 pixlar*/
+    font-size: 30px; /*DENNIS: textstorlek 30 pixlar*/
     background-color: yellowgreen;
-    border: 3px solid rgb(89, 122, 23);
+    border: 3px solid rgb(89, 122, 23); /*DENNIS: kantlinje på 3 pixlar*/
 }
 
 #underpriser{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
+    display: flex; /*DENNIS: flexbox för layout*/
+    justify-content: center; /*DENNIS: centrerar innehållet horizontellt*/
+    align-items: center; /*DENNIS: centrerar innehållet vertikalt*/
+    min-height: 400px; /*DENNIS: minsta höjd 400 pixlar*/
     color:rgb(67, 76, 0);
 }
 
 #underpriser div{
-    height: 370px;
-    width: 335px;
-    margin: 30px;
-    text-align: center;
-    border-radius: 15px;
-    font-size: 30px;
+    height: 370px; /*DENNIS: höjd på 370 pixlar*/
+    width: 335px;/*DENNIS: bredd på 335 pixlar*/
+    margin: 30px; /*DENNIS: margin 30 pixlar*/
+    text-align: center; /*DENNIS: centrera text*/
+    border-radius: 15px; /*DENNIS: Runda hörn, 15 pixlar*/
+    font-size: 30px; /*DENNIS: textstorlek 30 pixlar*/
     background-color: yellowgreen;
-    text-align: center;
-    border: 3px solid rgb(89, 122, 23);
+    text-align: center; /*DENNIS: centrera text*/
+    border: 3px solid rgb(89, 122, 23); /*DENNIS: kantlinje på 3 pixlar*/
 }
 
 #underpriser h1{
-    margin: 20px;
-    padding: 0;
-    font-family: arial;
-    font-size: 28px;
-    text-align: center;
-    position: relative;
-    top: 30%
+    margin: 20px; /*DENNIS: margin 20 pixlar*/
+    padding: 0; /*DENNIS: ingen padding*/
+    font-family: arial; /*DENNIS: text ändras till arial*/
+    font-size: 28px; /*DENNIS: textstorlek 28 pixlar*/
+    text-align: center; /*DENNIS: centrera text*/
+    position: relative; /*DENNIS: rutor hamnar i mitten*/
+    top: 30% /*DENNIS: 30% upp*/
 }
 
 h3{
-    font-size: 30px;
+    font-size: 30px; /*DENNIS: */
 }
