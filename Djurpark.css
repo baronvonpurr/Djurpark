@@ -1,26 +1,26 @@
 body{
-    background-color: rgb(11, 150, 4);
+    background-color: rgb(11, 150, 4); /*Bakgrundsfärg*/
 }
 
-.wrapper{
-    display: grid;
-    grid-template-rows: auto auto auto 70px;
-    grid-template-areas:
+.wrapper{ /*DIJAR: Klass*/
+    display: grid; /*DIJAR: Gridlayout*/
+    grid-template-rows: auto auto auto 70px; /*DIJAR: 4 rader, header är auto, nav är auto, main är auto vilket anpassar sig till innehållet, footer är 70 pixlar*/
+    grid-template-areas: /*DIJAR: Ordning på sidan, toppen är header och botten är footer*/
     "header"
     "nav"
     "main"
     "footer";
-    height: 100%;
+    height: 97vh; /*DIJAR: Höjd blir 97% av dokumentfönstret*/
 }
 
 header{
-    grid-area: header;
-    display: grid;
-    border-style: solid;
-    border-width: 5px;
-    border-color: rgb(10, 127, 3, 0.6);
+    grid-area: header; /*DIJAR: Gridområde*/
+    display: grid; 
+    border-style: solid; /*ROBIN: Kant*/
+    border-width: 5px; /*ROBIN: Tjocklek 5 pixlar på kanten*/
+    border-color: rgb(10, 127, 3, 0.6); /*ROBIN: Färg på kant*/
     background-color: rgb(39, 160, 30);
-    border-radius: 1em;
+    border-radius: 1em; /*DIJAR: Avrundade hörn*/
 }
 
 nav{
@@ -29,30 +29,30 @@ nav{
 
 nav > ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    padding: 0;
-    margin: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /*ROBIN: 5 fractions*/
+    padding: 0; /*ROBIN: Ta bort padding*/
+    margin: 0; /*ROBIN: Ta bort margin*/
 }
 
 li{
-    list-style-type: none;
-    display: grid;
-    text-align: center;
-    background-color: rgb(39, 160, 30);
-    border-style: solid;
-    border-color: rgb(10, 127, 3, 0.6);
-    border-width: 5px;
-    border-radius: 1em;
-    font-size: 50px;
+    list-style-type: none; /*ROBIN: Inga punkter, ingen stil*/
+    display: grid; 
+    text-align: center; /*ROBIN: Centrera text*/
+    background-color: rgb(39, 160, 30); /*ROBIN: Bakgrundsfärg*/
+    border-style: solid; /*ROBIN: Solid kant*/
+    border-color: rgb(10, 127, 3, 0.6); /*ROBIN: Färg på kant*/
+    border-width: 5px; /*ROBIN: Tjocklek 5 pixlar på kanten*/
+    border-radius: 1em; /*DIJAR: Avrundade hörn*/
+    font-size: 50px; /*ROBIN: 50 pixlar textstorlek*/
 }
 
 li:hover{
-    background-color: rgb(11, 148, 3, 0.6);
+    background-color: rgb(11, 148, 3, 0.6); /*ROBIN: Färg när muspekaren är över listelementen*/
 }
 
 li > a{
-    text-decoration: none;
-    color: rgb(67, 76, 0);
+    text-decoration: none; /*ROBIN: Ta bort understrucket linje*/
+    color: rgb(67, 76, 0); /*ROBIN: Färg*/
 }
 
 main{
@@ -60,8 +60,8 @@ main{
 }
 
 #body2 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: grid; 
+    grid-template-columns: 1fr 1fr; /*DIJAR: 2 sections för att använda till djur html dokumenten*/
 }
 
 footer{
@@ -71,13 +71,13 @@ footer{
 
 h1 > a{
     text-decoration: none;
-    color:rgb(67, 76, 0);
+    color:rgb(67, 76, 0); 
     font-size: 40px;
 }
 
 .indexsite{
-    background-image: url(Nankinfalk.jpg);
-    background-size: cover;
+    background-image: url(Nankinfalk.jpg); /*ROBIN: Bild*/
+    background-size: cover; /*ROBIN: Täcker hela bakgrunden*/
 }
 
 .Diegosite{
@@ -100,10 +100,10 @@ h1 > a{
     background-size: cover;
 }
 
-.mainhem{
+.mainhem{ 
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
+    grid-template-rows: 1fr 1fr 1fr; /*ROBIN: 3 sections*/
+    grid-template-areas: /*ROBIN: Ordning*/
     "top"
     "center"
     "bottom";
